@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<META charset="utf-8"/>
+			<title>Questão 7 - Fatorial</title>
+		<script>
+		
+		function fatorar()
+		
+		{
+			fator = document.getElementById('valor').value
+			document.getElementById('valor').innerHTML.fator
+			while (1 <= fator)
+		{
+			fator*(fator - 1)
+		}
+		}
+		
+		</script>
+		
+	<body>
+		
+	<p>Digite aqui: 
+	<input type="number" id="valor" name="valor" onkeypress="return onlynumber()"/>
+	</p>	
+	<input type="submit" value="Clique aqui para fatorar seu número." onclick="fatorar()" />
+		
+	</body>
+</html>

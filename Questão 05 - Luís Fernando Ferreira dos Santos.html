@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<META charset="utf-8"/>
+			<title>Questão 5 - Notas</title>
+		<script>
+ 
+		function verificar () 
+		
+		{ 
+		var valor = document.getElementById("numero").value; 
+		if (valor < 10) { alert("Insuficiente"); } 
+		else if (valor < 14) { alert("Bom"); } 
+		else { alert("Muito Bom"); } } 
+		
+		</script>
+	
+	</head>
+	
+	<body>
+	
+	<p>Digite seu número:</p>
+	<input type="text" id="numero"><p>
+	<input type="submit" onclick="verificar()" value="Qual seu resultado?">
+	
+	</body>
+</HTML>
